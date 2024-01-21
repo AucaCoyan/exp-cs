@@ -23,6 +23,28 @@ namespace HelloWorld
 
             Console.WriteLine(d1 + " divided by " + num2 + " is " + (d1 / num2));
             // this writes ok 0.6
+
+            String myname = "auca";
+            Console.WriteLine(myname.ToUpper());
+
+            // type conversions / coercions
+
+            // implicit coercion
+            int num = 123456789;
+            long bigNum = num;
+
+            float myFloat = 13.37F;
+            double myDouble = myFloat;
+
+            double myNewDouble = 13.37;
+            int myInt;
+            // explicit coercion
+            // cast double to int
+            myInt = (int)myDouble;
+
+            // typeConversion
+            string myString = myDouble.ToString();
+
         }
     }
 }
